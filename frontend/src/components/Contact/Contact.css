@@ -1,0 +1,19 @@
+.card {
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.delete-button{
+    border-radius: 0px 20px 20px 0px;
+}
+
+.delete-button:focus{
+    outline: none;
+    box-shadow: none;
+}

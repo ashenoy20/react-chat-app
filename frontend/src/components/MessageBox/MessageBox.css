@@ -1,0 +1,39 @@
+.message-box {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  height: 100%;
+}
+
+#chat-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea{
+    height: 65%;
+    border: solid black;
+   
+
+}
+
+.message-area{
+   display: flex;
+   margin-top: 5px;
+   height: 35%;
+   flex-direction: row;
+   
+   
+}
+
+.message-input{
+   flex-grow: 5;
+   height: 25%;
+
+}
+
+.message-button{
+   flex-grow: 1;
+   height: 27%;
+}
